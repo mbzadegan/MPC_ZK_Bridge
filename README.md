@@ -79,7 +79,7 @@ python -m mpc.protocols --x 1,2,3 --y 4,5,6 --seed 42
 - **`secure_mul(x1,x2,y1,y2,T)`**: computes shares of `x*y` using a Beaver triple `T`.
 
 ### `mpc/protocols.py`
-- **`dot_product(x,y,seed)`**: secret‑shares inputs, multiplies element‑wise via Beaver, sums, and reconstructs.
+- **`dot_product(x,y, seed)`**: secret‑shares inputs, multiplies element‑wise via Beaver, sums, and reconstructs.
 - CLI wrapper so reviewers can run it without opening code.
 
 ### `zk/pedersen.py`
