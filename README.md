@@ -91,7 +91,7 @@ python -m mpc.protocols --x 1,2,3 --y 4,5,6 --seed 42
 - Fiat–Shamir used to derive challenge `c` from a hash → makes it NIZK‑like in the toy model.
 
 ### `zk/mih.py`
-- **MPC‑in‑the‑Head** sketch for a dot‑product relation: prover commits to three simulated party views; verifier opens two (per Fiat–Shamir challenge) and checks structural consistency (toy check here).
+- **MPC‑in‑the‑Head** sketch for a dot‑product relation: prover commits to three simulated party views; verifier opens two (per Fiat–Shamir challenge) and checks structural consistency (toy checking here).
 
 ### `examples/*.py`
 - Small scripts that exercise each protocol end‑to‑end and print results for fast review.
