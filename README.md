@@ -104,7 +104,7 @@ python -m mpc.protocols --x 1,2,3 --y 4,5,6 --seed 42
 
 ## Typical outputs
 - `demo_mpc_dot.py`: prints the secret dot product under the small prime field.
-- `demo_zk_schnorr.py`: prints `Proof verifies? True/False`.
+- `demo_zk_schnorr.py`: prints `Proof verifies? True/False.
 - `demo_mih_dot.py`: prints whether the toy MiH proof passes the basic structural check.
 
 ---
