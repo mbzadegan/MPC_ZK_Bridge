@@ -1,5 +1,5 @@
 # Finite field utilities for a safe-ish 61-bit prime (EDU only)
-P = 2**61 - 1  # small-ish prime; not cryptographic usage
+P = 2**61 - 1  # small-ish prime; not cryptographic usage!!
 
 def modp(x: int) -> int:
     return x % P
