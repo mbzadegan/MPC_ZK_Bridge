@@ -116,7 +116,3 @@ python -m mpc.protocols --x 1,2,3 --y 4,5,6 --seed 42
 - Explore **PQ‑friendly** commitments and **OT‑based** multiplication for MPC.
 - Strengthen MiH verification to re‑execute the opened views and consistency constraints.
 
----
-
-## License
-MIT — see `LICENSE`.
