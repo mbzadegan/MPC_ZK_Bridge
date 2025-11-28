@@ -1,4 +1,4 @@
-# Minimal Pedersen-like commitment in a toy group (EDU ONLY).
+# Minimal Pedersen-like commitment in a toy group (Education ONLY).
 from hashlib import sha256
 
 # Tiny toy modulus; DO NOT USE for real security.
